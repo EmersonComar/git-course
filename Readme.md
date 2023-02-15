@@ -24,3 +24,11 @@ git log --author="" : buscar commits somente deste autor
 git shortlog : log menos detalhados mostrando o autor e a sua quantidade de commits
 git log --graph : mostrar as branches de forma gráfica
 git checkout <nome_arquivo> : não aplicar uma modificação em estado Modified
+
+git reset --soft : irá matar o atual commit e retornar o arquivo em stage, pronto
+		   para ser novamente commitado
+	  --mixed : Matar o commit atual, porém irá voltar o arquivo para modified, pronto para
+	  	    add
+	  --hard : Irá ignorar completamente o commit atual
+
+comando: git reset --soft <hash na qual eu quero retornar>
