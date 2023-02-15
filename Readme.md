@@ -33,3 +33,8 @@ git reset --soft : irá matar o atual commit e retornar o arquivo em stage, pron
 	  --hard : Irá ignorar completamente o commit atual
 
 comando: git reset --soft <hash na qual eu quero retornar>
+
+git push -u origin main : git push serve para enviarmos o estado do repositório para o servidor
+                          remoto; origin significa para onde vai e o main significa para de onde 
+                          vem; o -u serve para 'traquear', ou seja, não ficar mais digitando
+                          o restante do código toda vez
